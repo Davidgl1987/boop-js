@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.title {
+  background-image: url("/boop.png");
+  background-position: center;
+  background-size: 40%;
+  background-repeat: no-repeat;
+}
+.bg-container {
+  background-image: url("/background.jpg");
+}
+.board-bg {
+  background: url("/board.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 0.2rem 1rem;
+}
+.text-stroke {
+  text-shadow: 0.1rem 0.1rem 0 white, -0.1rem -0.1rem 0 white,
+    0.1rem -0.1rem 0 white, -0.1rem 0.1rem 0 white, 0.1rem 0.1rem 0 white;
+}
+.gray-kitty {
+  background: url("/kitties.png");
+  background-size: cover;
+}
+.gray-cat {
+  background: url("/cats.png");
+  background-size: cover;
+}
+.orange-kitty {
+  background: url("/kitties.png");
+  background-size: cover;
+  background-position-x: right;
+}
+.orange-cat {
+  background: url("/cats.png");
+  background-size: cover;
+  background-position-x: right;
+}
