@@ -3,10 +3,7 @@
 @tailwind utilities;
 
 .title {
-  background-image: url("/boop.png");
-  background-position: center;
-  background-size: 40%;
-  background-repeat: no-repeat;
+  height: 16rem;
 }
 .bg-container {
   background-image: url("/background.jpg");
@@ -15,26 +12,30 @@
   background: url("/board.jpg");
   background-size: cover;
   background-position: center;
-  padding: 0.2rem 1rem;
+  padding: 1rem 1.5rem;
 }
 .text-stroke {
   text-shadow: 0.1rem 0.1rem 0 white, -0.1rem -0.1rem 0 white,
     0.1rem -0.1rem 0 white, -0.1rem 0.1rem 0 white, 0.1rem 0.1rem 0 white;
 }
-.gray-kitty {
+.text-stroke-xl {
+  text-shadow: 0.3rem 0.3rem 0 white, -0.3rem -0.3rem 0 white,
+    0.3rem -0.3rem 0 white, -0.3rem 0.3rem 0 white, 0.3rem 0.3rem 0 white;
+}
+.left-sm {
   background: url("/kitties.png");
   background-size: cover;
 }
-.gray-cat {
+.left-lg {
   background: url("/cats.png");
   background-size: cover;
 }
-.orange-kitty {
+.right-sm {
   background: url("/kitties.png");
   background-size: cover;
   background-position-x: right;
 }
-.orange-cat {
+.right-lg {
   background: url("/cats.png");
   background-size: cover;
   background-position-x: right;
